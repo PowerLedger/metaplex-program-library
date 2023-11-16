@@ -22,11 +22,9 @@ default = []
 [dependencies]
 anchor-lang = "0.26.0"
 arrayref = "0.3.6"
-spl-token = { version = "3.5.0", features = ["no-entrypoint"] }
+spl-token = { path= "../../../powr-program-library/token/program", version = "=3.5.0", features = ["no-entrypoint"] }
 mpl-token-metadata = { version = "1.11", features = ["no-entrypoint"] }
-spl-associated-token-account = { version = "1.1.1", features = [
-  "no-entrypoint",
-] }
+spl-associated-token-account = { path= "../../../powr-program-library/associated-token-account/program", version = "=1.1.1", features = ["no-entrypoint"] }
 anchor-spl = "0.26.0"
 solana-program = "1.14"
 solana-gateway = "0.2.2"

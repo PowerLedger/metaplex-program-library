@@ -18,8 +18,8 @@ num-derive = "0.3"
 arrayref = "0.3.6"
 num-traits = "0.2"
 solana-program = { path= "../../../pl-solana/sdk/program", version = "=1.10.41" }
-spl-token = { path= "../../../pl-solana-program-library/token/program", version = "=3.5.0", features = ["no-entrypoint"] }
-spl-associated-token-account = { path= "../../../pl-solana-program-library/associated-token-account/program", version = "=1.1.1", features = ["no-entrypoint"] }
+spl-token = { path= "../../../powr-program-library/token/program", version = "=3.5.0", features = ["no-entrypoint"] }
+spl-associated-token-account = { path= "../../../powr-program-library/associated-token-account/program", version = "=1.1.1", features = ["no-entrypoint"] }
 mpl-token-auth-rules = { version = "1.1", features = ["no-entrypoint"] }
 thiserror = "1.0"
 borsh = "0.9.2"
