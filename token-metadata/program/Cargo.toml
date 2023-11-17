@@ -17,7 +17,7 @@ serde-feature = ["serde", "serde_with"]
 num-derive = "0.3"
 arrayref = "0.3.6"
 num-traits = "0.2"
-solana-program = { path= "../../../pl-solana/sdk/program", version = "=1.10.41" }
+solana-program = { path= "../../../powr/sdk/program", version = "=1.13.7" }
 spl-token = { path= "../../../powr-program-library/token/program", version = "=3.5.0", features = ["no-entrypoint"] }
 spl-associated-token-account = { path= "../../../powr-program-library/associated-token-account/program", version = "=1.1.1", features = ["no-entrypoint"] }
 mpl-token-auth-rules = { version = "1.1", features = ["no-entrypoint"] }
@@ -32,8 +32,8 @@ mpl-token-metadata-context-derive = { version = "0.2.1", path = "../macro" }
 [dev-dependencies]
 rmp-serde = "1.1.1"
 rooster = { git = "https://github.com/metaplex-foundation/rooster" }
-solana-sdk = { path= "../../../pl-solana/sdk", version = "=1.10.41" }
-solana-program-test = { path= "../../../pl-solana/program-test", version = "=1.10.41" }
+solana-sdk = { path= "../../../powr/sdk", version = "=1.13.7" }
+solana-program-test = { path= "../../../powr/program-test", version = "=1.13.7" }
 serde = { version = "1.0.147", features = ["derive"]}
 async-trait = "0.1.64"
 old-token-metadata = { package = "mpl-token-metadata", version = "=1.10.0", features = ["no-entrypoint"] }
